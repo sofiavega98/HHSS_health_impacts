@@ -41,7 +41,7 @@ github/
 - Attaches FIPS codes for geographic identification
 - Standardizes county names and removes inconsistencies
 
-**Input**: `HEvOD_2014-2022.csv` (pipe-delimited CSV)
+**Input**: `HEvOD_2014-2022.csv`
 **Output**: `evac_data_clean.Rdata`
 
 ### 2. `2_merge_evac_exp.R`
@@ -64,6 +64,7 @@ github/
 - **Source**: Hurricane Evacuation Order Database
 - **Period**: 2014-2022
 - **Content**: Evacuation orders by hurricane, county, and date
+- **Reference**: https://www.nature.com/articles/s41597-024-03100-x
 
 ### Hurricane Exposure Data
 - **Source**: `hurricaneexposuredata` R package
